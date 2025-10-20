@@ -253,8 +253,7 @@ ol {
   opacity: 1;
 }
 
-.search-form__checkbox-list .search-form__label:hover {
-  /* Из задания (шаг 4, "стилизуем чекбокс", пункт 4): "обратите внимание, что подчёркивание должно появляться при наведении не только на сам текст, но и на любую точку лейбла чекбокса."  */
+.search-form__checkbox-list:hover .search-form__label {
   text-decoration: underline;
   text-decoration-skip-ink: none;
 }
